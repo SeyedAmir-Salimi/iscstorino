@@ -2,7 +2,7 @@ import Axios from 'axios'
 
 export const fetchFootball = async () => {
   try {
-    const result = await Axios.get('http://localhost:3000/football')
+    const result = await Axios.get('https://iscstorino-api.herokuapp.com/football')
     return result.data
   } catch (error) {
     throw new Error(error.response.data)
@@ -11,7 +11,7 @@ export const fetchFootball = async () => {
 
 export const fetchWeather = async () => {
   try {
-    const result = await Axios.get('http://localhost:3000/weather')
+    const result = await Axios.get('https://iscstorino-api.herokuapp.com/weather')
     return result.data
   } catch (error) {
     throw new Error(error.response.data)
