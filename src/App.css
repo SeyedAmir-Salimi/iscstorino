@@ -1,0 +1,81 @@
+.App {
+	text-align: center;
+}
+
+body,
+html {
+	height: 90%;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(230, 230, 230);
+}
+
+/* Home Component */
+
+.homepage{
+	background-color: var(--GreyBackground);
+	display: flex;
+	justify-content: space-around;
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.homepage div{
+	cursor: pointer;
+	border-radius: 3rem;
+	width: 10rem;
+	transition: ease-in-out 0.3s;
+}
+.homepage div:hover{
+	background-color: rgb(185, 185, 185);
+}
+
+/* Football Component */
+
+.tabel{
+	text-align: left;
+	margin: 0 auto;
+	width: 60%;
+}
+.tabelFShow{
+	text-align: center;
+	margin: 0 auto;
+	width: 60%;
+	padding: 5rem;
+	background-color: rgba(61, 61, 61, 0.842);
+	position: absolute ;
+	top: 10rem;
+	left: 0;
+	right: 0;
+	border-radius: 3rem;
+}
+.tabelFShow th, .tabelFShow td{
+	font-size: 1.5rem;
+}
+
+.tabelFShow h1{
+	color: rgb(251, 255, 2);
+}
+.tabelFShow h3{
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-right: 1rem;
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+}
+.clicktoSee{
+	text-align: center;
+	margin: 0 auto;
+	cursor: pointer;
+	background-color: rgb(185, 185, 185);
+	width: 80%;
+	border-radius: 2rem;
+}
+
+/* Weather Component */
+.tabe3{
+	text-align: left;
+	margin: 0 auto;
+	width: 30%;
+}
